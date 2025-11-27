@@ -25,8 +25,10 @@ SECRET_KEY = 'django-insecure-102t49f^&v0g42*c3h522+koodue1quzxj667)s_dtya%9s3-i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-# ALLOWED_HOSTS = ['e-dine.onrender.com', 'localhost']
+# For local network hosting - replace with your PC's IP address
+# You can find your IP by running: ipconfig (on Windows)
+# Example: ALLOWED_HOSTS = ['192.168.x.x', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']  # Allows all hosts for local network (not recommended for production)
 
 
 

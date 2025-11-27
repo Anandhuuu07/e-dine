@@ -1,9 +1,12 @@
 ## Setup
 ```
 py 
+
+pip install -r requirements.txt
+
  python manage.py runserver 
 
- python manage.py runserver 0.0.0.0:10000
+ python manage.py runserver 
 
 ```
 # e-dine # e-dine
